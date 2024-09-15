@@ -12,9 +12,18 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A4C2D0A70264A56A79AA7CC /* SUSE-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74A0B8899E1C471182337D7B /* SUSE-ExtraLight.ttf */; };
+		6E30A1D0DCBC4E5EA7BA10F9 /* SUSE-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE11BE1E67ED4EF8AEB1D717 /* SUSE-Thin.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-ECharge-EChargeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ECharge-EChargeTests.a */; };
+		7781DC36E8C14C55A60BF015 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995B088B3E844847B0676F08 /* Nunito-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86F9D4C38B5C42F6B8A0E2EC /* SUSE-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 258AFAB62BA74C02925FC836 /* SUSE-Regular.ttf */; };
+		95C6A3812B74427991F9573C /* SUSE-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 144F6A0795C5405690ACB897 /* SUSE-SemiBold.ttf */; };
+		BD304ECC1C894BD5B7BE76EF /* SUSE-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87CEF0483726430796694D56 /* SUSE-Medium.ttf */; };
 		C442DC95018799062C967BCC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 820A2234649AC998818EAA14 /* PrivacyInfo.xcprivacy */; };
+		D28910345E0240AB8830A174 /* SUSE-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB38EC4266742A38E1BC4DE /* SUSE-Light.ttf */; };
+		DEA4B881368840E9B57037F4 /* SUSE-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6686B96C11E04669AF86176E /* SUSE-ExtraBold.ttf */; };
+		FF6289ECFD044AC38ADC760C /* SUSE-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F04D5FCA7625404FA569CBD9 /* SUSE-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +47,24 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ECharge/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ECharge/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ECharge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		144F6A0795C5405690ACB897 /* SUSE-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-SemiBold.ttf"; path = "../src/assets/fonts/SUSE-SemiBold.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ECharge-EChargeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECharge-EChargeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		258AFAB62BA74C02925FC836 /* SUSE-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-Regular.ttf"; path = "../src/assets/fonts/SUSE-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ECharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECharge.debug.xcconfig"; path = "Target Support Files/Pods-ECharge/Pods-ECharge.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ECharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECharge.release.xcconfig"; path = "Target Support Files/Pods-ECharge/Pods-ECharge.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ECharge-EChargeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECharge-EChargeTests.debug.xcconfig"; path = "Target Support Files/Pods-ECharge-EChargeTests/Pods-ECharge-EChargeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ECharge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECharge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6686B96C11E04669AF86176E /* SUSE-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-ExtraBold.ttf"; path = "../src/assets/fonts/SUSE-ExtraBold.ttf"; sourceTree = "<group>"; };
+		74A0B8899E1C471182337D7B /* SUSE-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-ExtraLight.ttf"; path = "../src/assets/fonts/SUSE-ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ECharge/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		820A2234649AC998818EAA14 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ECharge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		820A2234649AC998818EAA14 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ECharge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		87CEF0483726430796694D56 /* SUSE-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-Medium.ttf"; path = "../src/assets/fonts/SUSE-Medium.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ECharge-EChargeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECharge-EChargeTests.release.xcconfig"; path = "Target Support Files/Pods-ECharge-EChargeTests/Pods-ECharge-EChargeTests.release.xcconfig"; sourceTree = "<group>"; };
+		995B088B3E844847B0676F08 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		BE11BE1E67ED4EF8AEB1D717 /* SUSE-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-Thin.ttf"; path = "../src/assets/fonts/SUSE-Thin.ttf"; sourceTree = "<group>"; };
+		ECB38EC4266742A38E1BC4DE /* SUSE-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-Light.ttf"; path = "../src/assets/fonts/SUSE-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F04D5FCA7625404FA569CBD9 /* SUSE-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUSE-Bold.ttf"; path = "../src/assets/fonts/SUSE-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				EBA3AAA53F14475492DE62A1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +170,23 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-ECharge-EChargeTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBA3AAA53F14475492DE62A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F04D5FCA7625404FA569CBD9 /* SUSE-Bold.ttf */,
+				6686B96C11E04669AF86176E /* SUSE-ExtraBold.ttf */,
+				74A0B8899E1C471182337D7B /* SUSE-ExtraLight.ttf */,
+				ECB38EC4266742A38E1BC4DE /* SUSE-Light.ttf */,
+				87CEF0483726430796694D56 /* SUSE-Medium.ttf */,
+				258AFAB62BA74C02925FC836 /* SUSE-Regular.ttf */,
+				144F6A0795C5405690ACB897 /* SUSE-SemiBold.ttf */,
+				BE11BE1E67ED4EF8AEB1D717 /* SUSE-Thin.ttf */,
+				995B088B3E844847B0676F08 /* Nunito-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +285,15 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C442DC95018799062C967BCC /* PrivacyInfo.xcprivacy in Resources */,
+				FF6289ECFD044AC38ADC760C /* SUSE-Bold.ttf in Resources */,
+				DEA4B881368840E9B57037F4 /* SUSE-ExtraBold.ttf in Resources */,
+				1A4C2D0A70264A56A79AA7CC /* SUSE-ExtraLight.ttf in Resources */,
+				D28910345E0240AB8830A174 /* SUSE-Light.ttf in Resources */,
+				BD304ECC1C894BD5B7BE76EF /* SUSE-Medium.ttf in Resources */,
+				86F9D4C38B5C42F6B8A0E2EC /* SUSE-Regular.ttf in Resources */,
+				95C6A3812B74427991F9573C /* SUSE-SemiBold.ttf in Resources */,
+				6E30A1D0DCBC4E5EA7BA10F9 /* SUSE-Thin.ttf in Resources */,
+				7781DC36E8C14C55A60BF015 /* Nunito-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y32J3Z766N;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ECharge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +530,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echarge;
 				PRODUCT_NAME = ECharge;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -499,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y32J3Z766N;
 				INFOPLIST_FILE = ECharge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +557,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echarge;
 				PRODUCT_NAME = ECharge;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
