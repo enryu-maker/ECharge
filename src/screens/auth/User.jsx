@@ -3,7 +3,7 @@ import React from 'react';
 import {image} from '../../assets/image';
 export default function User({navigation}) {
   return (
-    <View className="flex-1 bg-primary justify-center items-center">
+    <View className="flex-1 bg-primary/20 justify-center items-center">
       <Image source={image?.main} className="w-[180px] h-[180px] " />
       <View className="w-full  h-[220px] justify-evenly items-center bottom-0 absolute bg-white p-2">
         <Text className="text-xl font-suse font-semibold text-center">
@@ -18,7 +18,7 @@ export default function User({navigation}) {
             }}>
             <Image
               source={image?.millennial}
-              className="w-[100px] h-[100px] border-2 border-primary object-contain rounded-full"
+              className="w-[100px] h-[100px] border-2 border-primary/20 object-contain rounded-full"
             />
             <Text className="text-lg font-suse font-semibold text-gray-500 text-center">
               Customer
@@ -32,7 +32,7 @@ export default function User({navigation}) {
             }}>
             <Image
               source={image?.agent}
-              className="w-[100px] h-[100px]  border-2 border-primary object-contain rounded-full"
+              className="w-[100px] h-[100px]  border-2 border-primary/20 object-contain rounded-full"
             />
             <Text className="text-lg font-suse font-semibold text-gray-500 text-center">
               Vendor
