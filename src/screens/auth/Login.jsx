@@ -4,10 +4,11 @@ import {
   SafeAreaView,
   TextInput,
   TouchableOpacity,
+  StatusBar,
 } from 'react-native';
 import React from 'react';
-import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
-export default function Login({navigation, route}) {
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+export default function Login({ navigation, route }) {
   const [mobile, setMobile] = React.useState('');
   return (
     <View className=" bg-primary/20 flex-1 justify-evenly items-center">
@@ -18,7 +19,7 @@ export default function Login({navigation, route}) {
           <View className="w-[25%] h-[1px] bg-black" />
         </View>
         <KeyboardAwareScrollView className="w-full self-center space-y-10">
-          <View className="self-center w-[88%%]">
+          <View className="self-center w-[88%]">
             <Text className="text-4xl font-suse font-semibold text-left w-[88%] text-gray-800">
               Login
             </Text>

@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import React from 'react';
 import OTPInputView from '@twotalltotems/react-native-otp-input';
-import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 export default function Verify() {
   return (
@@ -19,7 +19,7 @@ export default function Verify() {
           <View className="w-[25%] h-[1px] bg-black" />
         </View>
         <KeyboardAwareScrollView className="w-full self-center space-y-10">
-          <View className="self-center w-[88%%]">
+          <View className="self-center w-[88%]">
             <Text className="text-4xl font-suse font-semibold text-left w-[88%] text-gray-800">
               Verify
             </Text>
@@ -35,12 +35,12 @@ export default function Verify() {
                 console.log(`Code is ${code}, you are good to go!`);
               }}
               autoFocusOnLoad={false}
-              style={{width: '80%', height: 100}}
+              style={{ width: '80%', height: 100 }}
               pinCount={4}
               placeholderTextColor="#000000"
             />
             <TouchableOpacity
-              onPress={() => {}}
+              onPress={() => { }}
               className="bg-black w-[88%] h-[50px] shadow-lg rounded-md justify-center items-center">
               <Text className="text-base font-suse font-medium  text-white">
                 Verify OTP
