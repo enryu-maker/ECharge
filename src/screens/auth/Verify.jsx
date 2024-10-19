@@ -4,15 +4,19 @@ import {
   SafeAreaView,
   StyleSheet,
   TouchableOpacity,
+  StatusBar
 } from 'react-native';
 import React from 'react';
 import OTPInputView from '@twotalltotems/react-native-otp-input';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import { useDispatch } from 'react-redux';
 
 export default function Verify() {
+  const dispatch = useDispatch()
   return (
     <View className=" bg-primary/20 flex-1 justify-evenly items-center">
-      <SafeAreaView className="w-full h-full justify-evenly space-y-8 items-center">
+      <SafeAreaView className="w-full h-full justify-evenly space-y-8 mt-8 items-center">
+        <StatusBar backgroundColor={"#29B67501"} barStyle={"dark-content"} translucent />
         <View className="flex-row justify-evenly items-center w-full">
           <View className="w-[25%] h-[1px] bg-black" />
           <View className="w-[60px] h-[60px] rounded-full border-2 " />
@@ -40,7 +44,12 @@ export default function Verify() {
               placeholderTextColor="#000000"
             />
             <TouchableOpacity
-              onPress={() => { }}
+              onPress={() => {
+                dispatch({
+                  type: 'SET_ACCESS',
+                  payload: "Access Token Dummy"
+                })
+              }}
               className="bg-black w-[88%] h-[50px] shadow-lg rounded-md justify-center items-center">
               <Text className="text-base font-suse font-medium  text-white">
                 Verify OTP

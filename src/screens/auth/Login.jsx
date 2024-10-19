@@ -12,7 +12,9 @@ export default function Login({ navigation, route }) {
   const [mobile, setMobile] = React.useState('');
   return (
     <View className=" bg-primary/20 flex-1 justify-evenly items-center">
-      <SafeAreaView className="w-full h-full justify-evenly space-y-8 items-center">
+      <SafeAreaView className="w-full h-full justify-evenly space-y-8 mt-8 items-center">
+        <StatusBar backgroundColor={"#29B67501"} barStyle={"dark-content"} translucent />
+
         <View className="flex-row justify-evenly items-center w-full">
           <View className="w-[25%] h-[1px] bg-black" />
           <View className="w-[60px] h-[60px] rounded-full border-2 " />
@@ -36,7 +38,7 @@ export default function Login({ navigation, route }) {
                 keyboardType="number-pad"
                 maxLength={10}
                 placeholder="9123456789"
-                className="border-b-2 tracking-widest text-xl font-suse font-medium h-[40px] border-gray-800"
+                className="border-b-2 tracking-widest text-xl font-suse font-medium h-[50px] border-gray-800"
                 value={mobile}
                 onChangeText={setMobile}
               />
